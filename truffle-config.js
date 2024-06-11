@@ -38,21 +38,21 @@ module.exports = {
   contracts_build_directory: "./build",
 
   networks: {
-    harmonyTestnet: {
-      provider: () => new HDWalletProvider(process.env.HARMONY_TESTNET_MNEMONIC, `https://api.s0.b.hmny.io`),
-      network_id: 1666700000,
-      timeoutBlocks: 200,
-      skipDryRun: true,
-      gas: 7000000,
-      gasPrice: web3.utils.toWei('1', 'gwei'),
-    },
+    // harmonyTestnet: {
+    //   provider: () => new HDWalletProvider(process.env.HARMONY_TESTNET_MNEMONIC, `https://api.s0.b.hmny.io`),
+    //   network_id: 1666700000,
+    //   timeoutBlocks: 200,
+    //   skipDryRun: true,
+    //   gas: 7000000,
+    //   gasPrice: web3.utils.toWei('1', 'gwei'),
+    // },
     harmonyMainnet: {
       provider: () => new HDWalletProvider(process.env.HARMONY_MAINNET_MNEMONIC, `https://api.harmony.one`),
       network_id: 1666600000,
       timeoutBlocks: 200,
       skipDryRun: false,
       gas: 7000000,
-      gasPrice: web3.utils.toWei('1', 'gwei'),
+      gasPrice: web3.utils.toWei('1000', 'gwei'),
     }
   },
 

@@ -1,0 +1,144 @@
+{
+  "contractName": "PoolInterfaceV5",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "increaseAccTokensPerLp",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"increaseAccTokensPerLp\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/PoolInterfaceV5.sol\":\"PoolInterfaceV5\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":20000},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/PoolInterfaceV5.sol\":{\"keccak256\":\"0x8cb029daa02134bf3c76ea1d1d318edda8df54f227dad8386fd989d222a0262d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://6eff43351498cf50b36dbc6e8578ae3af79ef4366a9205798389bd7561d76c55\",\"dweb:/ipfs/QmfPhyT3g1E3aQxmL7jFbKLiAJYmNATtHSuEy5hzHpUwHv\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.14;\n\ninterface PoolInterfaceV5{\n    function increaseAccTokensPerLp(uint) external;\n}",
+  "sourcePath": "/Users/jnai/clones/gTrade-v6.1/contracts/interfaces/PoolInterfaceV5.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/PoolInterfaceV5.sol",
+    "exportedSymbols": {
+      "PoolInterfaceV5": [
+        6281
+      ]
+    },
+    "id": 6282,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6275,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".14"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:11"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "PoolInterfaceV5",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 6281,
+        "linearizedBaseContracts": [
+          6281
+        ],
+        "name": "PoolInterfaceV5",
+        "nameLocation": "67:15:11",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "c412dcfc",
+            "id": 6280,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "increaseAccTokensPerLp",
+            "nameLocation": "97:22:11",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6278,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6277,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6280,
+                  "src": "120:4:11",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 6276,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "120:4:11",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "119:6:11"
+            },
+            "returnParameters": {
+              "id": 6279,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "134:0:11"
+            },
+            "scope": 6281,
+            "src": "88:47:11",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 6282,
+        "src": "57:80:11",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:105:11"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.14+commit.80d49f37.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-11T10:08:40.232Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

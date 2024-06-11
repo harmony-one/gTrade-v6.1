@@ -1,0 +1,144 @@
+{
+  "contractName": "PausableInterfaceV5",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "isPaused",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"isPaused\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/PausableInterfaceV5.sol\":\"PausableInterfaceV5\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":20000},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/PausableInterfaceV5.sol\":{\"keccak256\":\"0x49e757016a48fa541c99cb1938e0a22b1d16e8f3b97d09d9649529177841a859\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://421fcfc7f109a916726b0101c740a2a7dc495b8265c94ce1879b129f585cceee\",\"dweb:/ipfs/QmYZ4GdUuBhNxbkDxPNXBUyLyCSCXMP2iHhh5FG2aREvAX\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.14;\n\ninterface PausableInterfaceV5{\n    function isPaused() external view returns (bool);\n}",
+  "sourcePath": "/Users/jnai/clones/gTrade-v6.1/contracts/interfaces/PausableInterfaceV5.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/PausableInterfaceV5.sol",
+    "exportedSymbols": {
+      "PausableInterfaceV5": [
+        6273
+      ]
+    },
+    "id": 6274,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 6267,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".14"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:10"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "PausableInterfaceV5",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 6273,
+        "linearizedBaseContracts": [
+          6273
+        ],
+        "name": "PausableInterfaceV5",
+        "nameLocation": "67:19:10",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "b187bd26",
+            "id": 6272,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "isPaused",
+            "nameLocation": "101:8:10",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 6268,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "109:2:10"
+            },
+            "returnParameters": {
+              "id": 6271,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 6270,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 6272,
+                  "src": "135:4:10",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 6269,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "135:4:10",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "134:6:10"
+            },
+            "scope": 6273,
+            "src": "92:49:10",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 6274,
+        "src": "57:86:10",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:111:10"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.14+commit.80d49f37.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-11T10:08:40.231Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}

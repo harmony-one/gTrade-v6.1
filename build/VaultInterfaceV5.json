@@ -1,0 +1,446 @@
+{
+  "contractName": "VaultInterfaceV5",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "sendDaiToTrader",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "receiveDaiFromTrader",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "currentBalanceDai",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "distributeRewardDai",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.14+commit.80d49f37\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"currentBalanceDai\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"distributeRewardDai\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"receiveDaiFromTrader\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"name\":\"sendDaiToTrader\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/interfaces/VaultInterfaceV5.sol\":\"VaultInterfaceV5\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":20000},\"remappings\":[]},\"sources\":{\"project:/contracts/interfaces/VaultInterfaceV5.sol\":{\"keccak256\":\"0xbbd6a93a058b4da7c2b5114ece35d743ef6099d928020835664169a0b5895825\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://9279ce9cc0ea819725d7e95dfb42e7ac0c1678c663df29b96ecaafb8d7bd96ae\",\"dweb:/ipfs/QmaGncj7tCppULAvDvGuQae6Jpq6nZ5vfjBehZhFm6XtUa\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.8.14;\n\ninterface VaultInterfaceV5{\n\tfunction sendDaiToTrader(address, uint) external;\n\tfunction receiveDaiFromTrader(address, uint, uint) external;\n\tfunction currentBalanceDai() external view returns(uint);\n\tfunction distributeRewardDai(uint) external;\n}",
+  "sourcePath": "/Users/jnai/clones/gTrade-v6.1/contracts/interfaces/VaultInterfaceV5.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/interfaces/VaultInterfaceV5.sol",
+    "exportedSymbols": {
+      "VaultInterfaceV5": [
+        7188
+      ]
+    },
+    "id": 7189,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 7161,
+        "literals": [
+          "solidity",
+          "0.8",
+          ".14"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:23:15"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "VaultInterfaceV5",
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "fullyImplemented": false,
+        "id": 7188,
+        "linearizedBaseContracts": [
+          7188
+        ],
+        "name": "VaultInterfaceV5",
+        "nameLocation": "67:16:15",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "functionSelector": "214a9a33",
+            "id": 7168,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "sendDaiToTrader",
+            "nameLocation": "95:15:15",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 7166,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7163,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7168,
+                  "src": "111:7:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 7162,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "111:7:15",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 7165,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7168,
+                  "src": "120:4:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7164,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "120:4:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "110:15:15"
+            },
+            "returnParameters": {
+              "id": 7167,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "134:0:15"
+            },
+            "scope": 7188,
+            "src": "86:49:15",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "fe80dd16",
+            "id": 7177,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "receiveDaiFromTrader",
+            "nameLocation": "146:20:15",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 7175,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7170,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7177,
+                  "src": "167:7:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_address",
+                    "typeString": "address"
+                  },
+                  "typeName": {
+                    "id": 7169,
+                    "name": "address",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "167:7:15",
+                    "stateMutability": "nonpayable",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_address",
+                      "typeString": "address"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 7172,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7177,
+                  "src": "176:4:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7171,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "176:4:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                },
+                {
+                  "constant": false,
+                  "id": 7174,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7177,
+                  "src": "182:4:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7173,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "182:4:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "166:21:15"
+            },
+            "returnParameters": {
+              "id": 7176,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "196:0:15"
+            },
+            "scope": 7188,
+            "src": "137:60:15",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "0851a202",
+            "id": 7182,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "currentBalanceDai",
+            "nameLocation": "208:17:15",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 7178,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "225:2:15"
+            },
+            "returnParameters": {
+              "id": 7181,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7180,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7182,
+                  "src": "250:4:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7179,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "250:4:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "249:6:15"
+            },
+            "scope": 7188,
+            "src": "199:57:15",
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "external"
+          },
+          {
+            "functionSelector": "b243fb01",
+            "id": 7187,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "distributeRewardDai",
+            "nameLocation": "267:19:15",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 7185,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 7184,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 7187,
+                  "src": "287:4:15",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 7183,
+                    "name": "uint",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "287:4:15",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "286:6:15"
+            },
+            "returnParameters": {
+              "id": 7186,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "301:0:15"
+            },
+            "scope": 7188,
+            "src": "258:44:15",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 7189,
+        "src": "57:247:15",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:272:15"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.14+commit.80d49f37.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.16",
+  "updatedAt": "2024-06-11T10:08:40.238Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
