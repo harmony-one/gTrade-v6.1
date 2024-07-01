@@ -53,6 +53,15 @@ module.exports = {
       skipDryRun: false,
       gas: 7000000,
       gasPrice: web3.utils.toWei('1000', 'gwei'),
+    },
+    development: {
+      host: "127.0.0.1",
+      port: 9514,
+      network_id: "*",
+      timeoutBlocks: 200,
+      skipDryRun: false,
+      gas: 7000000,
+      gasPrice: web3.utils.toWei('1000', 'gwei'),
     }
   },
 
